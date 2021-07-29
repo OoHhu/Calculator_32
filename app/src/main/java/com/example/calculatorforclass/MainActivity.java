@@ -251,7 +251,7 @@ public class MainActivity extends AppCompatActivity {
         answer = ansSt;
 
         formulaText.setText(setOver11letters_Adjust(disAns.toString())
-                + setSymbol + setOver11letters_Adjust(disAns2.toString() + "="));
+                + setSymbol + setOver11letters_Adjust(disAns2.toString()) + "=");
 
         //計算が終わったので、answerをセットする
         disAns.setLength(0);
