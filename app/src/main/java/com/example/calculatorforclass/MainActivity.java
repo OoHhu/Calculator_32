@@ -163,7 +163,7 @@ public class MainActivity extends AppCompatActivity {
 
         if (disAns2.toString().length() > 0 && setSymbol != '\u0000') {
             String nowFormulaText = (String) formulaText.getText();
-            String pattern = "[-]?[0-9]+?.?[0-9]+?…?[+|\\-|×|÷]";
+            String pattern = "[-]?[0-9]+.?[0-9]*…?[+|\\-|×|÷]";
 
             if (nowFormulaText.matches(pattern)) {
                 equal_onClick(v);
