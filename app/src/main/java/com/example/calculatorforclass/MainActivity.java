@@ -105,7 +105,12 @@ public class MainActivity extends AppCompatActivity {
             nowEditReset();
         }
 
+        //nowEditが空の時にドットが押された時
+        if(id==R.id.bt_dtto && nowEdit.length()==0){
+        nowEdit.append(0).append(clickNum);
+        }else{
         nowEdit.append(clickNum);
+        }
         ansText.setText(nowEdit);
     }//end of Number_onClick(View v)
 

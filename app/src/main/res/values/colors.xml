@@ -6,5 +6,13 @@
     <color name="teal_200">#FF03DAC5</color>
     <color name="teal_700">#FF018786</color>
     <color name="black">#FF000000</color>
+    <color name="gray">#252525</color>
     <color name="white">#FFFFFFFF</color>
+    <color name="clear">#0000FFFF</color>
+    <color name="set1_Lavender">#D4C1E6</color>
+    <color name="set1_Blue">#B9CAEB</color>
+    <color name="set1_WildBlue">#AFABD4</color>
+    <color name="set1_Red">#FFC3AD</color>
+    <color name="set1_Orange">#FFE0BD</color>
+    <color name="set1_silk">#FFF9E0</color>
 </resources>
